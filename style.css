@@ -1,0 +1,46 @@
+/* 
+
+Salvando a paleta de cor!
+
+#05183c Azul escuro
+#06296b Azul menos escuro
+#1a3c7d Azul claro
+#101217 Preto cinza
+#0c0d0d Preto
+
+*/
+
+.attribution { 
+    font-size: 14px; 
+    text-align: center; 
+    color: #fff;
+}
+
+.attribution a { 
+    color: #1e458f; 
+}
+
+body {
+    background-color: #101217;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+
+.box { 
+    width: 325px;
+    height: 475px;
+    background-color: #1a3c7d;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.qrcode {
+    width: 200px;
+    height: 200px;
+}
